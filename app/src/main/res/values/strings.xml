@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Parqueadero</string>
+    <string name="parqueadero">PARQUEADERO</string>
+    <string name="registro_de_carros">REGISTRO DE CARROS</string>
+    <string name="entrada">Entrada</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="salida">Salida</string>
+    <string name="cobrar">Cobrar</string>
+    <string name="_00">00</string>
+    <string name="valor_a_pagar">Valor a pagar</string>
+    <string name="digite_la_placa">Digite la placa</string>
+    <string name="total">Total</string>
+</resources>

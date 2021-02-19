@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ed_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/parqueadero"/>
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/registro_de_carros"/>
+
+    <TextView
+        android:id="@+id/entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/entrada"/>
+
+    <EditText
+        android:id="@+id/in_placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/digite_la_placa"/>
+
+    <Button
+        android:id="@+id/btn_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/ingresar"/>
+
+    <TextView
+        android:id="@+id/hora_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/salida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/salida"/>
+
+    <EditText
+        android:id="@+id/sal_placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/digite_la_placa"/>
+
+    <Button
+        android:id="@+id/btn_cobrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/cobrar"/>
+
+    <TextView
+        android:id="@+id/valor_pagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/valor_a_pagar"/>
+
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/_00"/>
+
+    <TextView
+        android:id="@+id/total_general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/total"/>
+
+    <TextView
+        android:id="@+id/total2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/_00"/>
+
+</LinearLayout>
